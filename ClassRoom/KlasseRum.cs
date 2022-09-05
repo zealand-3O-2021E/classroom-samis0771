@@ -29,8 +29,20 @@ namespace ClassRoom
             get { return _semesterstart; }
             set { _semesterstart = value; }
         }
+        
+
         public KlasseRum()
         {
+
+        }
+
+        //Konstruktøren anveder værdier fra property
+
+        public KlasseRum(string klasseRum, List<Studerende> studerendeliste, DateTime semsterstart)
+        {
+            Klasserum = klasseRum;
+            Klasseliste = studerendeliste;
+            Semsterstart = semsterstart;
 
         }
     }

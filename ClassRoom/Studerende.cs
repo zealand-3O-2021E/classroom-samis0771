@@ -20,7 +20,7 @@ namespace ClassRoom
 
         public int Fødselsmåned
         {
-            get { return _fødselsmåned; }
+            get { return _fødselsmåned;  }
             set { _fødselsmåned = value; }
         }
 
@@ -36,6 +36,11 @@ namespace ClassRoom
             _fødselsmåned = Fødselsmåned;
             
 
+        }
+
+        public override string ToString()
+        {
+            return "Navn:" + Navn + " " + Fødselsmåned + Førdselsdag;
         }
 
     }
