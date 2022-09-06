@@ -40,7 +40,7 @@ namespace ClassRoom
 
         public override string ToString()
         {
-            return "Navn:" + Navn + " " + Fødselsmåned + Førdselsdag;
+            return "Navn:" + Navn + " " + Fødselsmåned +"-"+ Førdselsdag;
         }
 
     }

@@ -14,15 +14,22 @@ namespace ClassRoom
             List<Studerende> studerendes = new List<Studerende>();
 
             //Sådan tilføjer du
-            studerendes.Add(new Studerende("Sami", 01, 2001));
-            studerendes.Add(new Studerende("Sami2", 02, 2002));
-            studerendes.Add(new Studerende("Sami", 03, 2003));
-            
+            studerendes.Add(new Studerende("Sami",24,05));
+            studerendes.Add(new Studerende("Sami2", 02, 02));
+            studerendes.Add(new Studerende("Sami", 13, 03));
 
             //Nytoprettet objekt af Klassrum
             KlasseRum klasseRum1 = new KlasseRum("3B", studerendes, new DateTime(2022, 9, 4));
 
             Console.WriteLine(klasseRum1);
+
+
+            //Printer liste ud i string
+            foreach (var item in studerendes)
+            {
+                Console.WriteLine(item);
+            }
+
             Console.ReadKey();
             
            

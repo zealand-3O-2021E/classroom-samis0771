@@ -48,7 +48,7 @@ namespace ClassRoom
 
         public override string ToString()
         {
-            return "Klasse navn: "+Klasserum + "\nStart: " + Semsterstart + "\n" + Klasseliste;
+            return "Klasse navn: "+Klasserum + "\nStart: " + Semsterstart + "\n";
         }
     }
 }
